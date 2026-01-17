@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="content-wrapper">
+            <div class="heading">
+                <h1 class="color-heading">Color Generator</h1>
+            </div>
+            <div class="second">
+                <button class="random-color" id="randomBtn">Random Color</button>
+                <input id="color-input" type="text" placeholder="Enter color name or hex (#667eea)">
+                <button class="apply-color" id="applyBtn">Apply Color</button>
+            </div>
+
+            <div class="third">
+                <p class="current-color">Current Color: <span class="current-color-value" id="colorValue">#667eea</span></p>
+            </div>
+            <div class="error-message" id="errorMsg"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
